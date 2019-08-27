@@ -1,0 +1,106 @@
+ff: parsing domain file
+domain 'EJERCICIO4' defined
+ ... done.
+ff: parsing problem file
+problem 'BELKAN' defined
+ ... done.
+
+
+
+no optimization required. skipping criterion.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   20 into depth [1]
+                                  15            [1][2][3]
+                                  14            [1][2][3][4]
+                                  13            [1][2][3][4][5][6]
+                                  12            [1]
+                                   9            [1][2][3][4]
+                                   5            [1][2][3][4][5][6][7]
+                                   4            [1][2][3][4][5][6][7][8][9]
+                                   3            [1][2][3][4][5][6][7][8][9][10][11]
+                                   2            [1][2][3][4][5][6][7][8][9][10][11]
+                                   1            [1]
+                                   0
+
+ff: found legal plan as follows
+
+step    0: GO HACKER Z1 Z2 SUR PIEDRA ZAPATILLAS
+        1: PICK-UP HACKER Z2 MANZANA
+        2: GO HACKER Z2 Z11 SUR ARENA ZAPATILLAS
+        3: TURN-LEFT HACKER SUR
+        4: GIVE HACKER LEONARDO MANZANA Z11
+        5: TURN-RIGHT HACKER ESTE
+        6: GO HACKER Z11 Z12 SUR PIEDRA ZAPATILLAS
+        7: TURN-LEFT HACKER SUR
+        8: GO HACKER Z12 Z14 ESTE PIEDRA ZAPATILLAS
+        9: TURN-RIGHT HACKER ESTE
+       10: TURN-RIGHT HACKER SUR
+       11: PICK-UP HACKER Z14 OSCAR
+       12: GO HACKER Z14 Z12 OESTE PIEDRA ZAPATILLAS
+       13: TURN-RIGHT HACKER OESTE
+       14: GO HACKER Z12 Z11 NORTE ARENA ZAPATILLAS
+       15: GO HACKER Z11 Z2 NORTE PIEDRA ZAPATILLAS
+       16: TURN-LEFT HACKER NORTE
+       17: TURN-LEFT HACKER OESTE
+       18: GO HACKER Z2 Z11 SUR ARENA ZAPATILLAS
+       19: GIVE HACKER LEONARDO OSCAR Z11
+       20: TURN-LEFT HACKER SUR
+       21: GO HACKER Z11 Z13 ESTE ARENA ZAPATILLAS
+       22: TURN-RIGHT HACKER ESTE
+       23: TURN-RIGHT HACKER SUR
+       24: PICK-UP HACKER Z13 OSCAR
+       25: GO HACKER Z13 Z11 OESTE ARENA ZAPATILLAS
+       26: GIVE HACKER LEONARDO OSCAR Z11
+       27: TURN-RIGHT HACKER OESTE
+       28: GO HACKER Z11 Z2 NORTE PIEDRA ZAPATILLAS
+       29: GO HACKER Z2 Z1 NORTE ARENA ZAPATILLAS
+       30: TURN-RIGHT HACKER NORTE
+       31: GO HACKER Z1 Z3 ESTE ARENA ZAPATILLAS
+       32: GO HACKER Z3 Z5 ESTE ARENA ZAPATILLAS
+       33: PICK-UP HACKER Z5 MANZANA
+       34: GO HACKER Z5 Z7 ESTE ARENA ZAPATILLAS
+       35: GIVE HACKER BRUJA MANZANA Z7
+       36: TURN-LEFT HACKER ESTE
+       37: TURN-LEFT HACKER NORTE
+       38: GO HACKER Z7 Z5 OESTE ARENA ZAPATILLAS
+       39: TURN-LEFT HACKER OESTE
+       40: GO HACKER Z5 Z6 SUR PIEDRA ZAPATILLAS
+       41: PICK-UP HACKER Z6 OSCAR
+       42: GO HACKER Z6 Z15 SUR ARENA ZAPATILLAS
+       43: TURN-RIGHT HACKER SUR
+       44: GO HACKER Z15 Z13 OESTE ARENA ZAPATILLAS
+       45: GO HACKER Z13 Z11 OESTE ARENA ZAPATILLAS
+       46: GIVE HACKER LEONARDO OSCAR Z11
+       47: TURN-RIGHT HACKER OESTE
+       48: TURN-RIGHT HACKER NORTE
+       49: GO HACKER Z11 Z13 ESTE ARENA ZAPATILLAS
+       50: GO HACKER Z13 Z15 ESTE ARENA ZAPATILLAS
+       51: TURN-LEFT HACKER ESTE
+       52: PICK-UP HACKER Z15 MANZANA
+       53: GO HACKER Z15 Z6 NORTE PIEDRA ZAPATILLAS
+       54: GO HACKER Z6 Z5 NORTE ARENA ZAPATILLAS
+       55: TURN-RIGHT HACKER NORTE
+       56: GO HACKER Z5 Z7 ESTE ARENA ZAPATILLAS
+       57: GIVE HACKER BRUJA MANZANA Z7
+                Coste Total: 0.00
+
+
+time spent:    0.01 seconds instantiating 1247 easy, 340 hard action templates
+               0.01 seconds reachability analysis, yielding 133 facts and 385 actions
+               0.00 seconds creating final representation with 89 relevant facts, 2 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.03 seconds searching, evaluating 649 states, to a max depth of 11
+               0.05 seconds total time

@@ -1,0 +1,99 @@
+ff: parsing domain file
+domain 'EJERCICIO3' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEMA3' defined
+ ... done.
+
+
+
+no optimization required. skipping criterion.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   14 into depth [1]
+                                  13            [1][2]
+                                  12            [1]
+                                  11            [1][2][3][4]
+                                   9            [1][2][3][4][5]
+                                   8            [1][2][3][4][5][6][7][8][9][10][11][12]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1] --- pruning stopped --- [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]
+                                   2            [1]
+                                   1            [1]
+                                   0
+
+ff: found legal plan as follows
+
+step    0: TURN-LEFT PLAYER1 SUR
+        1: PICK-UP PLAYER1 Z2 ZAPATILLAS
+        2: GO PLAYER1 Z2 Z3 ESTE ARENA OSCAR1
+        3: PUT PLAYER1 ZAPATILLAS
+        4: TURN-RIGHT PLAYER1 ESTE
+        5: PICK-UP PLAYER1 Z3 BIKINI
+        6: GO PLAYER1 Z3 Z6 SUR PIEDRA OSCAR1
+        7: TURN-LEFT PLAYER1 SUR
+        8: PUT-DOWN PLAYER1 Z6 BIKINI
+        9: TAKE PLAYER1 ZAPATILLAS
+       10: PUT-DOWN PLAYER1 Z6 ZAPATILLAS
+       11: PICK-UP PLAYER1 Z6 BIKINI
+       12: PUT PLAYER1 BIKINI
+       13: GO PLAYER1 Z6 Z7 ESTE AGUA BIKINI
+       14: TURN-LEFT PLAYER1 ESTE
+       15: TURN-LEFT PLAYER1 NORTE
+       16: GO PLAYER1 Z7 Z6 OESTE PIEDRA OSCAR1
+       17: GO PLAYER1 Z6 Z5 OESTE ARENA OSCAR1
+       18: TURN-RIGHT PLAYER1 OESTE
+       19: TURN-RIGHT PLAYER1 NORTE
+       20: PICK-UP PLAYER1 Z5 OSCAR1
+       21: GO PLAYER1 Z5 Z6 ESTE PIEDRA OSCAR1
+       22: GO PLAYER1 Z6 Z7 ESTE AGUA BIKINI
+       23: GIVE PLAYER1 PRINCESA1 OSCAR1 Z7
+       24: TURN-LEFT PLAYER1 ESTE
+       25: TURN-LEFT PLAYER1 NORTE
+       26: GO PLAYER1 Z7 Z6 OESTE PIEDRA OSCAR1
+       27: TURN-RIGHT PLAYER1 OESTE
+       28: PICK-UP PLAYER1 Z6 ZAPATILLAS
+       29: GO PLAYER1 Z6 Z3 NORTE ARENA OSCAR1
+       30: GO PLAYER1 Z3 Z1 NORTE BOSQUE ZAPATILLAS
+       31: TURN-LEFT PLAYER1 NORTE
+       32: PUT-DOWN PLAYER1 Z1 ZAPATILLAS
+       33: TURN-LEFT PLAYER1 OESTE
+       34: TAKE PLAYER1 BIKINI
+       35: PUT-DOWN PLAYER1 Z1 BIKINI
+       36: PICK-UP PLAYER1 Z1 ZAPATILLAS
+       37: GO PLAYER1 Z1 Z3 SUR ARENA OSCAR1
+       38: TURN-LEFT PLAYER1 SUR
+       39: PUT PLAYER1 ZAPATILLAS
+       40: GO PLAYER1 Z3 Z4 ESTE PIEDRA OSCAR1
+       41: TURN-RIGHT PLAYER1 ESTE
+       42: PICK-UP PLAYER1 Z4 MANZANA1
+       43: TURN-RIGHT PLAYER1 SUR
+       44: GO PLAYER1 Z4 Z3 OESTE ARENA OSCAR1
+       45: TURN-RIGHT PLAYER1 OESTE
+       46: GO PLAYER1 Z3 Z1 NORTE BOSQUE ZAPATILLAS
+       47: GIVE PLAYER1 BRUJA1 MANZANA1 Z1
+       48: REACH-GOAL
+                Coste Total: 0.00
+
+
+time spent:    0.00 seconds instantiating 128 easy, 44 hard action templates
+               0.00 seconds reachability analysis, yielding 77 facts and 140 actions
+               0.00 seconds creating final representation with 76 relevant facts, 1 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.02 seconds searching, evaluating 1997 states, to a max depth of 16
+               0.02 seconds total time

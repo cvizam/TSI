@@ -1,0 +1,76 @@
+ff: found legal plan as follows
+
+step    0: GO HACKER Z1 Z2 SUR
+        1: PICK-UP HACKER Z2 ALGORITMO
+        2: GO HACKER Z2 Z11 SUR
+        3: TURN-LEFT HACKER SUR
+        4: PUT-DOWN HACKER Z11 ALGORITMO
+        5: GO HACKER Z11 Z13 ESTE
+        6: PICK-UP HACKER Z13 ORO
+        7: TURN-LEFT HACKER ESTE
+        8: TURN-LEFT HACKER NORTE
+        9: GO HACKER Z13 Z11 OESTE
+       10: TURN-RIGHT HACKER OESTE
+       11: PUT-DOWN HACKER Z11 ORO
+       12: PICK-UP HACKER Z11 ALGORITMO
+       13: GIVE HACKER LEONARDO ALGORITMO Z11
+       14: PICK-UP HACKER Z11 ORO
+       15: GO HACKER Z11 Z2 NORTE
+       16: TURN-RIGHT HACKER NORTE
+       17: GO HACKER Z2 Z4 ESTE
+       18: GIVE HACKER PRINCESA ORO Z4
+       19: TURN-LEFT HACKER ESTE
+       20: GO HACKER Z4 Z3 NORTE
+       21: TURN-RIGHT HACKER NORTE
+       22: GO HACKER Z3 Z5 ESTE
+       23: GO HACKER Z5 Z7 ESTE
+       24: TURN-RIGHT HACKER ESTE
+       25: GO HACKER Z7 Z8 SUR
+       26: TURN-LEFT HACKER SUR
+       27: PICK-UP HACKER Z8 OSCAR
+       28: GO HACKER Z8 Z10 ESTE
+       29: PUT-DOWN HACKER Z10 OSCAR
+       30: TURN-LEFT HACKER ESTE
+       31: TURN-LEFT HACKER NORTE
+       32: PICK-UP HACKER Z10 OSCAR
+       33: GIVE HACKER PROFESOR OSCAR Z10
+       34: GO HACKER Z10 Z8 OESTE
+       35: TURN-LEFT HACKER OESTE
+       36: GO HACKER Z8 Z17 SUR
+       37: PICK-UP HACKER Z17 ROSA
+       38: TURN-LEFT HACKER SUR
+       39: TURN-LEFT HACKER ESTE
+       40: GO HACKER Z17 Z8 NORTE
+       41: GO HACKER Z8 Z7 NORTE
+       42: PUT-DOWN HACKER Z7 ROSA
+       43: TURN-RIGHT HACKER NORTE
+       44: TURN-RIGHT HACKER ESTE
+       45: PICK-UP HACKER Z7 ROSA
+       46: GIVE HACKER BRUJA ROSA Z7
+       47: TURN-RIGHT HACKER SUR
+       48: GO HACKER Z7 Z5 OESTE
+       49: TURN-LEFT HACKER OESTE
+       50: GO HACKER Z5 Z6 SUR
+       51: PICK-UP HACKER Z6 ALGORITMO
+       52: GO HACKER Z6 Z15 SUR
+       53: PUT-DOWN HACKER Z15 ALGORITMO
+       54: GO HACKER Z15 Z16 SUR
+       55: PICK-UP HACKER Z16 OSCAR
+       56: TURN-LEFT HACKER SUR
+       57: GO HACKER Z16 Z18 ESTE
+       58: PUT-DOWN HACKER Z18 OSCAR
+       59: TURN-LEFT HACKER ESTE
+       60: TURN-LEFT HACKER NORTE
+       61: PICK-UP HACKER Z18 OSCAR
+       62: GIVE HACKER PRINCIPE OSCAR Z18
+       63: REACH-GOAL
+                Coste Total: 49.00
+
+
+time spent:    6.98 seconds instantiating 1291 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 196 facts and 3466 actions
+               1.76 seconds creating final representation with 191 relevant facts, 1 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+              12.22 seconds searching, evaluating 16129 states, to a max depth of 0
+              20.96 seconds total time

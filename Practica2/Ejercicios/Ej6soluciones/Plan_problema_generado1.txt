@@ -1,0 +1,75 @@
+ff: parsing domain file
+domain 'EJERCICIO6' defined
+ ... done.
+ff: parsing problem file
+problem 'PROBLEMA6' defined
+ ... done.
+
+
+
+no optimization required. skipping criterion.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   14 into depth [1]
+                                  12            [1]
+                                  11            [1][2][3]
+                                  10            [1]
+                                   8            [1][2][3][4]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1][2][3][4][5][6][7][8][9][10]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0
+
+ff: found legal plan as follows
+
+step    0: TURN-LEFT PLAYER1 SUR
+        1: GO PLAYER1 Z2 Z3 ESTE ARENA MANZANA1
+        2: TURN-RIGHT PLAYER2 SUR
+        3: TURN-RIGHT PLAYER2 OESTE
+        4: GO PLAYER2 Z6 Z3 NORTE ARENA MANZANA1
+        5: GO PLAYER2 Z3 Z1 NORTE ARENA MANZANA1
+        6: GO PLAYER1 Z3 Z4 ESTE PIEDRA MANZANA1
+        7: TURN-LEFT PLAYER1 ESTE
+        8: TURN-LEFT PLAYER1 NORTE
+        9: PICK-UP PLAYER1 Z4 MANZANA1
+       10: GO PLAYER1 Z4 Z3 OESTE ARENA MANZANA1
+       11: TURN-RIGHT PLAYER1 OESTE
+       12: GO PLAYER1 Z3 Z1 NORTE ARENA MANZANA1
+       13: GIVE PLAYER1 BRUJA1 MANZANA1 Z1
+       14: TURN-LEFT PLAYER2 NORTE
+       15: TURN-LEFT PLAYER2 OESTE
+       16: GO PLAYER2 Z1 Z3 SUR ARENA MANZANA1
+       17: GO PLAYER2 Z3 Z6 SUR PIEDRA MANZANA1
+       18: TURN-RIGHT PLAYER2 SUR
+       19: GO PLAYER2 Z6 Z5 OESTE ARENA MANZANA1
+       20: TURN-RIGHT PLAYER2 OESTE
+       21: TURN-RIGHT PLAYER2 NORTE
+       22: PICK-UP PLAYER2 Z5 OSCAR1
+       23: GO PLAYER2 Z5 Z6 ESTE PIEDRA MANZANA1
+       24: GO PLAYER2 Z6 Z7 ESTE ARENA MANZANA1
+       25: GIVE PLAYER2 PRINCESA1 OSCAR1 Z7
+                Coste Total: 0.00
+
+
+time spent:    0.03 seconds instantiating 256 easy, 96 hard action templates
+               0.00 seconds reachability analysis, yielding 98 facts and 248 actions
+               0.00 seconds creating final representation with 94 relevant facts, 6 relevant fluents
+               0.01 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.02 seconds searching, evaluating 116 states, to a max depth of 10
+               0.06 seconds total time

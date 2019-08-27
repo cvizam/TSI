@@ -1,0 +1,189 @@
+ff: parsing domain file
+domain 'EJERCICIO6' defined
+ ... done.
+ff: parsing problem file
+problem 'BELKAN' defined
+ ... done.
+
+
+
+no optimization required. skipping criterion.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   27 into depth [1]
+                                  26            [1][2]
+                                  25            [1]
+                                  24            [1][2][3]
+                                  22            [1][2][3][4][5]
+                                  20            [1][2][3][4]
+                                  19            [1]
+                                  18            [1][2]
+                                  17            [1]
+                                  16            [1]
+                                  10            [1]
+                                   9            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19]
+                                   8            [1][2][3][4][5][6][7][8][9][10][11][12][13]
+                                   7            [1]
+                                   5            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17]
+                                   4            [1][2][3][4][5][6][7][8][9][10][11][12][13][14]
+                                   3            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19]
+                                   2            [1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29]
+                                   1            [1]
+                                   0
+
+ff: found legal plan as follows
+
+step    0: GO HACKER Z1 Z2 SUR PIEDRA ZAPATILLAS
+        1: PICK-UP HACKER Z2 ALGORITMO
+        2: GO HACKER Z2 Z11 SUR ARENA ZAPATILLAS
+        3: GIVE HACKER LEONARDO ALGORITMO Z11
+        4: TURN-LEFT HACKER SUR
+        5: GO HACKER Z11 Z13 ESTE ARENA ZAPATILLAS
+        6: TURN-LEFT HACKER ESTE
+        7: TURN-LEFT HACKER NORTE
+        8: PICK-UP HACKER Z13 ORO
+        9: GO HACKER Z13 Z11 OESTE ARENA ZAPATILLAS
+       10: TURN-RIGHT HACKER OESTE
+       11: TURN-RIGHT HACKER NORTE
+       12: GO HACKER Z11 Z13 ESTE ARENA ZAPATILLAS
+       13: GO HACKER Z13 Z15 ESTE ARENA ZAPATILLAS
+       14: TURN-RIGHT HACKER ESTE
+       15: GO HACKER Z15 Z16 SUR PIEDRA ZAPATILLAS
+       16: TURN-LEFT HACKER SUR
+       17: GO ELONMUSK Z15 Z16 SUR PIEDRA ZAPATILLAS
+       18: TURN-LEFT ELONMUSK SUR
+       19: GO HACKER Z16 Z18 ESTE ARENA ZAPATILLAS
+       20: GO ELONMUSK Z16 Z18 ESTE ARENA ZAPATILLAS
+       21: GIVE HACKER PRINCIPE ORO Z18
+       22: TURN-LEFT HACKER ESTE
+       23: TURN-LEFT ELONMUSK ESTE
+       24: TURN-LEFT HACKER NORTE
+       25: GO HACKER Z18 Z16 OESTE PIEDRA ZAPATILLAS
+       26: TURN-RIGHT HACKER OESTE
+       27: GO HACKER Z16 Z15 NORTE ARENA ZAPATILLAS
+       28: TURN-LEFT HACKER NORTE
+       29: GO HACKER Z15 Z13 OESTE ARENA ZAPATILLAS
+       30: TURN-LEFT ELONMUSK NORTE
+       31: GO ELONMUSK Z18 Z16 OESTE PIEDRA ZAPATILLAS
+       32: TURN-RIGHT ELONMUSK OESTE
+       33: GO HACKER Z13 Z11 OESTE ARENA ZAPATILLAS
+       34: PICK-UP ELONMUSK Z16 OSCAR
+       35: GO ELONMUSK Z16 Z15 NORTE ARENA ZAPATILLAS
+       36: TURN-LEFT ELONMUSK NORTE
+       37: GO ELONMUSK Z15 Z13 OESTE ARENA ZAPATILLAS
+       38: GO ELONMUSK Z13 Z11 OESTE ARENA ZAPATILLAS
+       39: PUT-DOWN ELONMUSK Z11 OSCAR
+       40: PICK-UP HACKER Z11 OSCAR
+       41: TURN-LEFT ELONMUSK OESTE
+       42: GO ELONMUSK Z11 Z12 SUR PIEDRA ZAPATILLAS
+       43: GO ELONMUSK Z12 Z21 SUR ARENA ZAPATILLAS
+       44: TURN-RIGHT ELONMUSK SUR
+       45: TURN-RIGHT ELONMUSK OESTE
+       46: PICK-UP ELONMUSK Z21 ROSA
+       47: GO ELONMUSK Z21 Z12 NORTE PIEDRA ZAPATILLAS
+       48: GO ELONMUSK Z12 Z11 NORTE ARENA ZAPATILLAS
+       49: GO ELONMUSK Z11 Z2 NORTE PIEDRA ZAPATILLAS
+       50: TURN-RIGHT ELONMUSK NORTE
+       51: GO ELONMUSK Z2 Z4 ESTE PIEDRA ZAPATILLAS
+       52: GIVE HACKER LEONARDO OSCAR Z11
+       53: GIVE ELONMUSK PRINCESA ROSA Z4
+       54: TURN-LEFT ELONMUSK ESTE
+       55: TURN-LEFT HACKER OESTE
+       56: GO HACKER Z11 Z12 SUR PIEDRA ZAPATILLAS
+       57: TURN-RIGHT HACKER SUR
+       58: TURN-RIGHT HACKER OESTE
+       59: PICK-UP HACKER Z12 MANZANA
+       60: GO HACKER Z12 Z11 NORTE ARENA ZAPATILLAS
+       61: GO HACKER Z11 Z2 NORTE PIEDRA ZAPATILLAS
+       62: TURN-RIGHT HACKER NORTE
+       63: GO HACKER Z2 Z4 ESTE PIEDRA ZAPATILLAS
+       64: PUT-DOWN HACKER Z4 MANZANA
+       65: PICK-UP ELONMUSK Z4 MANZANA
+       66: GO ELONMUSK Z4 Z3 NORTE ARENA ZAPATILLAS
+       67: TURN-RIGHT ELONMUSK NORTE
+       68: GO ELONMUSK Z3 Z5 ESTE ARENA ZAPATILLAS
+       69: GO ELONMUSK Z5 Z7 ESTE ARENA ZAPATILLAS
+       70: GIVE ELONMUSK BRUJA MANZANA Z7
+       71: TURN-RIGHT ELONMUSK ESTE
+       72: GO ELONMUSK Z7 Z8 SUR PIEDRA ZAPATILLAS
+       73: TURN-RIGHT ELONMUSK SUR
+       74: TURN-RIGHT ELONMUSK OESTE
+       75: PICK-UP ELONMUSK Z8 OSCAR
+       76: GO ELONMUSK Z8 Z7 NORTE ARENA ZAPATILLAS
+       77: TURN-LEFT ELONMUSK NORTE
+       78: GO ELONMUSK Z7 Z5 OESTE ARENA ZAPATILLAS
+       79: GO ELONMUSK Z5 Z3 OESTE ARENA ZAPATILLAS
+       80: GO ELONMUSK Z3 Z1 OESTE ARENA ZAPATILLAS
+       81: TURN-LEFT ELONMUSK OESTE
+       82: GO ELONMUSK Z1 Z2 SUR PIEDRA ZAPATILLAS
+       83: GO ELONMUSK Z2 Z11 SUR ARENA ZAPATILLAS
+       84: GIVE ELONMUSK LEONARDO OSCAR Z11
+       85: TURN-LEFT HACKER ESTE
+       86: GO HACKER Z4 Z3 NORTE ARENA ZAPATILLAS
+       87: TURN-RIGHT HACKER NORTE
+       88: TURN-LEFT ELONMUSK SUR
+       89: GO ELONMUSK Z11 Z13 ESTE ARENA ZAPATILLAS
+       90: GO ELONMUSK Z13 Z15 ESTE ARENA ZAPATILLAS
+       91: TURN-LEFT ELONMUSK ESTE
+       92: PICK-UP ELONMUSK Z15 ZAPATILLAS
+       93: GO ELONMUSK Z15 Z6 NORTE PIEDRA ZAPATILLAS
+       94: PUT ELONMUSK ZAPATILLAS
+       95: PICK-UP ELONMUSK Z6 ALGORITMO
+       96: GO ELONMUSK Z6 Z5 NORTE ARENA ZAPATILLAS
+       97: TURN-RIGHT ELONMUSK NORTE
+       98: GO ELONMUSK Z5 Z7 ESTE ARENA ZAPATILLAS
+       99: TURN-RIGHT ELONMUSK ESTE
+      100: GO ELONMUSK Z7 Z8 SUR PIEDRA ZAPATILLAS
+      101: TURN-LEFT ELONMUSK SUR
+      102: GO ELONMUSK Z8 Z10 ESTE BOSQUE ZAPATILLAS
+      103: GIVE ELONMUSK PROFESOR ALGORITMO Z10
+      104: TURN-RIGHT ELONMUSK ESTE
+      105: GO ELONMUSK Z10 Z19 SUR BOSQUE ZAPATILLAS
+      106: TURN-RIGHT ELONMUSK SUR
+      107: GO ELONMUSK Z19 Z17 OESTE BOSQUE ZAPATILLAS
+      108: TURN-RIGHT ELONMUSK OESTE
+      109: PICK-UP ELONMUSK Z17 ROSA
+      110: GO ELONMUSK Z17 Z8 NORTE PIEDRA ZAPATILLAS
+      111: GO ELONMUSK Z8 Z7 NORTE ARENA ZAPATILLAS
+      112: GIVE ELONMUSK BRUJA ROSA Z7
+      113: GO HACKER Z3 Z5 ESTE ARENA ZAPATILLAS
+      114: TURN-RIGHT HACKER ESTE
+      115: PICK-UP HACKER Z5 BIKINI
+      116: GO HACKER Z5 Z6 SUR PIEDRA ZAPATILLAS
+      117: GO HACKER Z6 Z15 SUR ARENA ZAPATILLAS
+      118: GO HACKER Z15 Z16 SUR PIEDRA ZAPATILLAS
+      119: GO HACKER Z16 Z25 SUR AGUA BIKINI
+      120: TURN-LEFT HACKER SUR
+      121: GO HACKER Z25 Z22 ESTE AGUA BIKINI
+      122: PUT HACKER BIKINI
+      123: TURN-LEFT HACKER ESTE
+      124: TURN-LEFT HACKER NORTE
+      125: PICK-UP HACKER Z22 ORO
+      126: GO HACKER Z22 Z25 OESTE AGUA BIKINI
+      127: GO HACKER Z25 Z23 OESTE ARENA ZAPATILLAS
+      128: GO HACKER Z23 Z21 OESTE ARENA ZAPATILLAS
+      129: TURN-RIGHT HACKER OESTE
+      130: GO HACKER Z21 Z12 NORTE PIEDRA ZAPATILLAS
+      131: GO HACKER Z12 Z11 NORTE ARENA ZAPATILLAS
+      132: GIVE HACKER LEONARDO ORO Z11
+                Coste Total: 0.00
+
+
+time spent:    0.04 seconds instantiating 2494 easy, 650 hard action templates
+               0.00 seconds reachability analysis, yielding 342 facts and 1366 actions
+               0.00 seconds creating final representation with 331 relevant facts, 9 relevant fluents
+               0.02 seconds computing LNF
+               0.00 seconds building connectivity graph
+              10.28 seconds searching, evaluating 142656 states, to a max depth of 29
+              10.34 seconds total time

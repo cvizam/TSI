@@ -1,0 +1,49 @@
+ff: found legal plan as follows
+
+step    0: TURN-LEFT PLAYER1 SUR
+        1: GO PLAYER1 Z2 Z3 ESTE
+        2: GO PLAYER1 Z3 Z4 ESTE
+        3: PICK-UP PLAYER1 Z4 MANZANA1
+        4: TURN-LEFT PLAYER1 ESTE
+        5: TURN-LEFT PLAYER1 NORTE
+        6: GO PLAYER1 Z4 Z3 OESTE
+        7: TURN-LEFT PLAYER1 OESTE
+        8: GO PLAYER1 Z3 Z6 SUR
+        9: TURN-LEFT PLAYER1 SUR
+       10: TURN-LEFT PLAYER1 ESTE
+       11: PUT-DOWN PLAYER1 Z6 MANZANA1
+       12: TURN-LEFT PLAYER1 NORTE
+       13: GO PLAYER1 Z6 Z5 OESTE
+       14: PICK-UP PLAYER1 Z5 OSCAR1
+       15: TURN-LEFT PLAYER1 OESTE
+       16: TURN-LEFT PLAYER1 SUR
+       17: GO PLAYER1 Z5 Z6 ESTE
+       18: PUT-DOWN PLAYER1 Z6 OSCAR1
+       19: PICK-UP PLAYER1 Z6 MANZANA1
+       20: GO PLAYER1 Z6 Z7 ESTE
+       21: PUT-DOWN PLAYER1 Z7 MANZANA1
+       22: TURN-LEFT PLAYER1 ESTE
+       23: TURN-LEFT PLAYER1 NORTE
+       24: PICK-UP PLAYER1 Z7 MANZANA1
+       25: GIVE PLAYER1 PRINCESA1 MANZANA1 Z7
+       26: GO PLAYER1 Z7 Z6 OESTE
+       27: PICK-UP PLAYER1 Z6 OSCAR1
+       28: TURN-RIGHT PLAYER1 OESTE
+       29: GO PLAYER1 Z6 Z3 NORTE
+       30: GO PLAYER1 Z3 Z1 NORTE
+       31: PUT-DOWN PLAYER1 Z1 OSCAR1
+       32: TURN-RIGHT PLAYER1 NORTE
+       33: TURN-RIGHT PLAYER1 ESTE
+       34: PICK-UP PLAYER1 Z1 OSCAR1
+       35: GIVE PLAYER1 BRUJA1 OSCAR1 Z1
+       36: REACH-GOAL
+                Coste Total: 70.00
+
+
+time spent:    0.00 seconds instantiating 76 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 36 facts and 56 actions
+               0.00 seconds creating final representation with 35 relevant facts, 1 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.04 seconds searching, evaluating 571 states, to a max depth of 0
+               0.04 seconds total time

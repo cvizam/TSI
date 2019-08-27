@@ -1,0 +1,124 @@
+ff: parsing domain file
+domain 'EJERCICIO1' defined
+ ... done.
+ff: parsing problem file
+problem 'BELKAN' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+task contains conditional effects. turning off state domination.
+
+
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   21 into depth [1][2][3][4][5]
+                                  20            [1][2][3]
+                                  19            [1][2]
+                                  18            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1][2][3]
+                                  14            [1][2][3][4][5][6][7][8][9][10][11]
+                                  13            [1][2][3][4][5]
+                                  12            [1][2][3]
+                                  11            [1][2][3]
+                                  10            [1][2][3][4][5][6][7]
+                                   9            [1][2][3][4][5][6][7][8]
+                                   8            [1][2][3][4]
+                                   7            [1][2][3][4]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1][2][3][4]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0
+
+ff: found legal plan as follows
+
+step    0: GO HACKER Z1 Z2 SUR
+        1: PICK-UP HACKER Z2 ALGORITMO
+        2: GO HACKER Z2 Z11 SUR
+        3: GIVE HACKER LEONARDO ALGORITMO Z11
+        4: TURN-LEFT HACKER SUR
+        5: GO HACKER Z11 Z13 ESTE
+        6: TURN-LEFT HACKER ESTE
+        7: PICK-UP HACKER Z13 ORO
+        8: TURN-RIGHT HACKER NORTE
+        9: GO HACKER Z13 Z15 ESTE
+       10: GO HACKER Z15 Z17 ESTE
+       11: GO HACKER Z17 Z19 ESTE
+       12: TURN-LEFT HACKER ESTE
+       13: GO HACKER Z19 Z10 NORTE
+       14: GO HACKER Z10 Z9 NORTE
+       15: TURN-LEFT HACKER NORTE
+       16: GO HACKER Z9 Z7 OESTE
+       17: GO HACKER Z7 Z5 OESTE
+       18: GO HACKER Z5 Z3 OESTE
+       19: TURN-LEFT HACKER OESTE
+       20: GO HACKER Z3 Z4 SUR
+       21: TURN-RIGHT HACKER SUR
+       22: TURN-RIGHT HACKER OESTE
+       23: GIVE HACKER PRINCESA ORO Z4
+       24: GO HACKER Z4 Z3 NORTE
+       25: TURN-RIGHT HACKER NORTE
+       26: GO HACKER Z3 Z5 ESTE
+       27: TURN-RIGHT HACKER ESTE
+       28: GO HACKER Z5 Z6 SUR
+       29: PICK-UP HACKER Z6 ALGORITMO
+       30: GO HACKER Z6 Z15 SUR
+       31: TURN-LEFT HACKER SUR
+       32: GO HACKER Z15 Z17 ESTE
+       33: GO HACKER Z17 Z19 ESTE
+       34: TURN-LEFT HACKER ESTE
+       35: GO HACKER Z19 Z10 NORTE
+       36: GO HACKER Z10 Z9 NORTE
+       37: TURN-LEFT HACKER NORTE
+       38: GO HACKER Z9 Z7 OESTE
+       39: TURN-RIGHT HACKER OESTE
+       40: TURN-RIGHT HACKER NORTE
+       41: GIVE HACKER BRUJA ALGORITMO Z7
+       42: GO HACKER Z7 Z9 ESTE
+       43: TURN-RIGHT HACKER ESTE
+       44: GO HACKER Z9 Z10 SUR
+       45: GO HACKER Z10 Z19 SUR
+       46: TURN-RIGHT HACKER SUR
+       47: GO HACKER Z19 Z17 OESTE
+       48: TURN-RIGHT HACKER OESTE
+       49: TURN-RIGHT HACKER NORTE
+       50: PICK-UP HACKER Z17 ROSA
+       51: GO HACKER Z17 Z19 ESTE
+       52: TURN-RIGHT HACKER ESTE
+       53: TURN-RIGHT HACKER SUR
+       54: TURN-RIGHT HACKER OESTE
+       55: GO HACKER Z19 Z10 NORTE
+       56: TURN-LEFT HACKER NORTE
+       57: TURN-LEFT HACKER OESTE
+       58: GIVE HACKER PROFESOR ROSA Z10
+       59: GO HACKER Z10 Z19 SUR
+       60: GO HACKER Z19 Z20 SUR
+       61: TURN-RIGHT HACKER SUR
+       62: GO HACKER Z20 Z18 OESTE
+       63: GO HACKER Z18 Z16 OESTE
+       64: TURN-RIGHT HACKER OESTE
+       65: TURN-RIGHT HACKER NORTE
+       66: PICK-UP HACKER Z16 OSCAR
+       67: GO HACKER Z16 Z18 ESTE
+       68: GIVE HACKER PRINCIPE OSCAR Z18
+       69: REACH-GOAL
+                Coste Total: 0.00
+
+
+time spent:    7.32 seconds instantiating 1293 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 196 facts and 3468 actions
+               1.90 seconds creating final representation with 191 relevant facts, 0 relevant fluents
+               0.02 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.08 seconds searching, evaluating 765 states, to a max depth of 11
+               9.32 seconds total time
