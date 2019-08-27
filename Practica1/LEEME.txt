@@ -1,0 +1,16 @@
+---------------------------------------------
+	-> CONTENIDO DEL ZIP <-
+---------------------------------------------
+
+* practica_busqueda: paquete que contiene la clase Agent.java
+
+---------------------------------------------
+
+* newPathFinder.java
+
+* newAStar.java
+
+Ambas clases deben ser introducidas en:
+GVGAI - src - tools - pathfinder
+
+---------------------------------------------
